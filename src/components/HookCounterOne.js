@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import './Component.css';
+
 function HookCounterOne() {
     const [count, setCount] = useState(0);
     const [value, setValue] = useState('');
@@ -21,13 +23,13 @@ function HookCounterOne() {
     }, [count]);
 
     return (
-        <div>
+        <div className='Component'>
             <h1>
                 React Hooks Tutorial 7 - useEffect runs after every render -
                 componentDidMount and componentDidUpdate
             </h1>
             <button onClick={clickHandler}>Click {count} times</button>
-            <input type="text" id="value" onChange={changeHandler} />
+            <input type='text' id='value' onChange={changeHandler} />
         </div>
     );
 }

@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
+import './Component.css';
+
+import './Component.css';
+
 function HookTwo() {
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
@@ -16,7 +20,7 @@ function HookTwo() {
     }, []);
 
     return (
-        <div>
+        <div className='Component'>
             <h1>
                 React Hooks Tutorial 9 - useEffect only once - similar to
                 componentDidMount
