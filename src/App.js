@@ -6,7 +6,8 @@ import HookTwo from './components/HookTwo';
 
 function App() {
     return (
-        <div className="App">
+        <div className='App'>
+            <h1>Updated from macbook</h1>
             <HookCounterOne />
             <HookTwo />
         </div>
