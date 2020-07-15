@@ -10,10 +10,11 @@ import HookFive from './components/HookFive';
 function App() {
     return (
         <div className='App'>
-            {/* <HookCounterOne />
+            <p>note: select appropriate component by commenting in or out</p>
+            <HookCounterOne />
             <HookTwo />
-            <HookThree /> */}
-            {/* <HookFour /> */}
+            <HookThree />
+            <HookFour />
             <HookFive />
         </div>
     );
